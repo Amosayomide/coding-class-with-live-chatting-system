@@ -1,0 +1,284 @@
+body{
+			font-family: calibri;
+		}
+		.html{
+			width: 100%;
+			height: 300px;
+			background: white;
+			color: black;
+			outline: none;
+			border: none;
+			padding: 5px;
+			box-sizing: border-box;
+			box-shadow: 1px 1px 10px 1px lightblue;
+		}
+		.button{
+			width: 100px;
+			text-align: center;
+			background: blueviolet;
+			color: white;
+			margin: 10px;
+			outline: none;
+			border: none;
+			padding: 15px;
+			border-radius: 5px;
+		}
+		.result{
+			width: 100%;
+			height: 300px;
+			border: none;
+			box-sizing: border-box;
+			box-shadow: 1px 1px 10px 1px lightblue;
+
+		}
+		h3.onlinetitle{
+			background: black;
+		    color: white;
+		    padding: 10px;
+		    background: black;
+color: white;
+padding: 10px;
+width: 250px;
+text-align: center;
+box-shadow: 5px 5px 9px 5px black;
+		}
+		.chatbox{
+			width: 100%;
+		    height: 300px;
+		    border: none;
+		    margin: 0px;
+		    padding: 0px;
+		    box-sizing: border-box;
+		}
+		.title{
+		padding: 10px;
+background: blueviolet;
+color: white;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+text-align: center;
+box-shadow: 1px 5px 10px 10px lightblue;
+border-radius: 5px;
+		}
+		.p1{
+			width: 49%;
+			float: left;
+		}
+		.p2{
+			width: 49%;
+			float: right;
+		}
+		.chat{
+			padding: 10px;
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			color: white;
+			clear: both;
+			height: auto;
+		}
+		.upchat{
+			background: url("../image/wallpaper.png");
+			padding-bottom: 20px;
+		}
+		.student{
+		background: blueviolet;
+		color: white;
+		padding: 7px;
+		width: 30%;
+		border-radius: 8px;
+		margin-left: auto;
+		}
+		.teacher{
+			background: white;
+			color: blueviolet;
+			padding: 7px;
+			width: 30%;
+			border-radius: 8px;
+		}
+		.message{
+			
+		}
+				@media only screen and (min-width: 250px) {
+			.Send{
+			padding: 10px;
+			width: 30%;
+			margin-top: 5px;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+	
+		} 
+
+			@media only screen and (min-width: 300px) {
+			.Send{
+			padding: 10px;
+			width: 30%;
+			outline: none;
+			margin-top: 5px;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+		
+		} 
+
+		@media only screen and (min-width: 400px) {
+			.Send{
+			padding: 10px;
+			width: 25%;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			margin-top: 5px;
+			border-radius: 8px;
+		}
+	
+		} 
+
+		@media only screen and (min-width: 500px) {
+			.Send{
+			padding: 10px;
+			width: 15%;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			margin-top: 5px;
+			border-radius: 8px;
+		}
+		
+		} 
+
+		@media only screen and (min-width: 600px) {
+			.Send{
+			padding: 10px;
+			width: 15%;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			margin-top: 5px;
+			border-radius: 8px;
+		}
+		.student small{
+			display: none;
+		}
+		.teacher small{
+			display: none;
+		}
+		} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+		.Send{
+			padding: 10px;
+			width: 15%;
+			margin-top: 5px;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+		.Send{
+			padding: 10px;
+			width: 7%;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+		.Send{
+			padding: 10px;
+			width: 7%;
+			outline: none;
+			background: blueviolet;
+			border: 2px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+}
+		.input{
+			width: 90%;
+			outline: none;
+			border: none;
+			height: 30px;
+			border-radius: 5px;
+		}
+		.p2 h3{
+			background: blueviolet;
+			width: 190px;
+			padding: 5px;
+			color: white;
+			box-shadow: 1px 1px 5px 4px lightblue;
+		}
+		.live{
+			background: blueviolet;
+			width: 100%;
+			padding: 5px;
+			color: white;
+			clear: both;
+			text-align: center;
+			border-radius: 5px;
+		}
+		.p1 h3{
+			background: blueviolet;
+			width: 171px;
+			padding: 5px;
+			color: white;
+			box-shadow: 1px 1px 5px 4px lightblue;
+		}
+		.reg{
+		margin-right: auto;
+		margin-left: auto;
+		width: 400px;
+		margin-top: 10%;
+		padding: 20px;
+		box-sizing: border-box;
+		box-shadow: 10px 10px 10px 10px lightblue;
+		}
+		.reg h3{
+			text-align: center;
+		}
+		.reg form input{
+			width: 350px;
+			height: 20px;
+			border: none;
+		    border-bottom-color: currentcolor;
+		    border-bottom-style: none;
+		    border-bottom-width: medium;
+			border-bottom: 1px solid lightblue;
+		}
+		.reg form input[type="submit"]{
+			background: blueviolet;
+			color: white;
+			padding: 10px;
+			height: 40px;
+		}
+		.reg form input[type="text"]{
+			text-transform: lowercase;
+		}
+		.reg a{
+			text-decoration: none;
+			color: blueviolet;
+		}
+		.name{
+			float: right;
+			font-size: 30px;
+		}
